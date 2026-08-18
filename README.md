@@ -1,6 +1,6 @@
 # korona on truman drugs
 
-i only made this so people could skid because people are dumb
+i only made this so people could yoink this and also so i dont get molested because korona is closed source
 
 ## requirements
 
@@ -28,4 +28,4 @@ discord.gg/korona
 or contact me
 @korona.lat
 
-have fun skids <3
+have fun <3
