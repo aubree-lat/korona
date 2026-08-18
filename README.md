@@ -1,4 +1,4 @@
-# korona on truman drugs
+# korona
 
 i only made this so people could yoink this and also so i dont get molested because korona is closed source
 
