@@ -2,10 +2,11 @@ const form = document.getElementById("home-search");
 const input = document.getElementById("home-search-input");
 
 const placeholders = [
-    "welcome back.",
-    "enter a url...",
-    "what are we browsing today?",
-    "type a url or search...",
+"wat for lunch teach?",
+    "thats so true man",
+    "im gay",
+    "powered by estrogen and hrt",
+    "BOOBS?!?!?! WHERE?!?!"
 ];
 
 form.addEventListener("submit", (event) => {
