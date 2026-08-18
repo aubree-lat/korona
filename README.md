@@ -27,3 +27,5 @@ join my discord
 discord.gg/korona
 or contact me
 @korona.lat
+
+have fun skids <3
