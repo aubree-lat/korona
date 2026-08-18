@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Sets | Quizlet</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/main.css">
+        <script src="/baremux/index.js" defer></script>
+        <script src="/uv/uv.bundle.js" defer></script>
+        <script src="/uv/uv.config.js" defer></script>
+        <script src="/scram/scramjet.js" defer></script>
+        <script src="/controller/controller.api.js" defer></script>
+        <script src="/stuff.js?v=1" defer></script>
+        <script src="/js/main.js" defer></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <span class="korona-mark">korona</span>
+                <form id="homework-searchbar">
+                    <input id="homework-lookupbar" type="text" placeholder="Enter a URL or search..." autocomplete="off" spellcheck="false">
+                    <button type="submit">go</button>
+                </form>
+                <select id="proxysel" aria-label="proxy backend">
+                    <option value="uv">UV</option>
+                    <option value="scramjet">Scramjet</option>
+                </select>
+            </header>
+            <div class="wrapper">
+                <iframe id="iframeid" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div id="fadeout">
+            <div id="loadingbox">
+                <span class="korona-mark-big">korona</span>
+                <div class="spinner"></div>
+                <h1 id="theh1">deploying proxy....</h1>
+                <p id="thep">enter a url to start browsing</p>
+            </div>
+        </div>
+
+        <span class="loader"></span>
+    </body>
+</html>

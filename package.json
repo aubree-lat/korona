@@ -1,0 +1,26 @@
+{
+  "name": "proxy-lite",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "npm": ">=10.0.0",
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "wisp": "node wisp.js"
+  },
+  "dependencies": {
+    "@mercuryworkshop/bare-mux": "^2.1.7",
+    "@mercuryworkshop/epoxy-transport": "^3.0.1",
+    "@mercuryworkshop/libcurl-transport": "^2.0.5",
+    "@mercuryworkshop/proxy-transports": "^1.0.2",
+    "@mercuryworkshop/scramjet": "https://github.com/MercuryWorkshop/scramjet/releases/download/v2.0.67-alpha.1/mercuryworkshop-scramjet-2.0.67-alpha.1.tgz",
+    "@mercuryworkshop/scramjet-controller": "https://github.com/MercuryWorkshop/scramjet/releases/download/v2.0.67-alpha.1/mercuryworkshop-scramjet-controller-0.0.13.tgz",
+    "@titaniumnetwork-dev/ultraviolet": "^3.2.10",
+    "express": "^5.2.1",
+    "mrrowisp": "^3.1.6",
+    "wisp-server-node": "^1.1.7"
+  }
+}

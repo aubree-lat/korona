@@ -1,0 +1,33 @@
+{
+  "name": "@mercuryworkshop/proxy-transports",
+  "version": "1.0.2",
+  "description": "A universal interface for designing \"transports\", i.e. ways of sending https+wss traffic from the browser through a proxy.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MercuryWorkshop/proxy-transports.git"
+  },
+  "author": "Mercury Workshop",
+  "bugs": "https://github.com/MercuryWorkshop/proxy-transports/issues",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "rollup": "^4.24.0",
+    "rollup-plugin-typescript2": "^0.36.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  }
+}
